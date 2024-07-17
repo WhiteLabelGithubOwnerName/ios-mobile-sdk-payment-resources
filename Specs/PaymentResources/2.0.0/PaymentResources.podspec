@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.platform         = :ios
 
   s.vendored_frameworks = 'TwintSDK.xcframework'
-  s.dependency 'ThreeDS_SDK', '2.4.11', :source => 'https://github.com/ios-3ds-sdk/Specs.git'
+  s.dependency = 'ThreeDS_SDK', '2.4.11', :source => 'https://github.com/ios-3ds-sdk/Specs.git'
 
 end
