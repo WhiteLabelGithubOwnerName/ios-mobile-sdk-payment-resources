@@ -7,7 +7,6 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'The Apache License, Version 2.0', :file => './LICENSE.txt' }
   s.author           = { 'Wallee' => 'info@wallee.com>' }
   s.ios.deployment_target = '12.4'
-  s.platform         = :ios
   
   s.source       = { :git => 'https://github.com/WhiteLabelGithubOwnerName/ios-mobile-sdk-payment-resources.git', :tag => s.version.to_s }
   s.vendored_frameworks = ['PaymentResourcesStatic/TwintSDK.xcframework', 'PaymentResourcesStatic/ThreeDS_SDK.xcframework']
