@@ -10,12 +10,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.4'
   s.platform         = :ios
 
-  s.vendored_frameworks = 'TwintSDK.xcframework'
-  s.dependency 'ThreeDS_SDK', :git => 'https://github.com/ios-3ds-sdk/Specs.git', :tag => '2.4.11'
-
-
-
-
-
+  s.vendored_frameworks = ['PaymentResourcesStatic/TwintSDK.xcframework', 'PaymentResourcesStatic/ThreeDS_SDK.xcframework']
 
 end
