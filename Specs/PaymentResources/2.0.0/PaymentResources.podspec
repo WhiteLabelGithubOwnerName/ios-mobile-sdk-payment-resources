@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.4'
   s.platform         = :ios
 
-  s.vendored_frameworks = ['PaymentResourcesStatic/TwintSDK.xcframework', 'PaymentResourcesStatic/ThreeDS_SDK.xcframework']
+  s.vendored_frameworks = 'PaymentResourcesStatic/**/*'
 
 end
