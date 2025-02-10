@@ -2,7 +2,7 @@
 
 Cocoapod dependencies for MSDK
 
-This is staging ...
+> **`This is staging ...`**
 
 you should test new dependencies with the dev/staging application with Cocoapod from here!
 
